@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		450EDF8F2201B352006B189D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDF8E2201B352006B189D /* AppDelegate.swift */; };
-		450EDF912201B352006B189D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDF902201B352006B189D /* ViewController.swift */; };
+		450EDF912201B352006B189D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDF902201B352006B189D /* HomeController.swift */; };
 		450EDF942201B352006B189D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450EDF922201B352006B189D /* Main.storyboard */; };
 		450EDF962201B354006B189D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450EDF952201B354006B189D /* Assets.xcassets */; };
 		450EDF992201B354006B189D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450EDF972201B354006B189D /* LaunchScreen.storyboard */; };
 		450EDFA42201B354006B189D /* airlinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDFA32201B354006B189D /* airlinesTests.swift */; };
 		450EDFAF2201B354006B189D /* airlinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDFAE2201B354006B189D /* airlinesUITests.swift */; };
+		450EDFBD2201D4B4006B189D /* AutolayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDFBC2201D4B4006B189D /* AutolayoutProxy.swift */; };
+		450EDFC22201E9B3006B189D /* AirlineItemListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDFC12201E9B3006B189D /* AirlineItemListCell.swift */; };
+		450EDFC62201EA47006B189D /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDFC52201EA47006B189D /* Airline.swift */; };
+		450EDFC8220265D9006B189D /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EDFC7220265D9006B189D /* DetailController.swift */; };
+		450EE005220313FE006B189D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EE004220313FE006B189D /* Extensions.swift */; };
+		454E692E22045821006A7A2E /* AirlineItemGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E692D22045821006A7A2E /* AirlineItemGridCell.swift */; };
+		454E693422048865006A7A2E /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E693322048865006A7A2E /* ViewControllerUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		450EDF8B2201B352006B189D /* airlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450EDF8E2201B352006B189D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		450EDF902201B352006B189D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		450EDF902201B352006B189D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		450EDF932201B352006B189D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		450EDF952201B354006B189D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450EDF982201B354006B189D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		450EDFAA2201B354006B189D /* airlinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airlinesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		450EDFAE2201B354006B189D /* airlinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airlinesUITests.swift; sourceTree = "<group>"; };
 		450EDFB02201B354006B189D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450EDFBC2201D4B4006B189D /* AutolayoutProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutProxy.swift; sourceTree = "<group>"; };
+		450EDFC12201E9B3006B189D /* AirlineItemListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineItemListCell.swift; sourceTree = "<group>"; };
+		450EDFC52201EA47006B189D /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		450EDFC7220265D9006B189D /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		450EE004220313FE006B189D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		454E692D22045821006A7A2E /* AirlineItemGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineItemGridCell.swift; sourceTree = "<group>"; };
+		454E693322048865006A7A2E /* ViewControllerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,16 @@
 		450EDF8D2201B352006B189D /* airlines */ = {
 			isa = PBXGroup;
 			children = (
+				450EE003220313C7006B189D /* Helper */,
+				450EDFC42201EA0D006B189D /* Model */,
+				450EDFC32201E9D9006B189D /* Controller */,
+				450EDFC02201E987006B189D /* Views */,
 				450EDF8E2201B352006B189D /* AppDelegate.swift */,
-				450EDF902201B352006B189D /* ViewController.swift */,
 				450EDF922201B352006B189D /* Main.storyboard */,
 				450EDF952201B354006B189D /* Assets.xcassets */,
 				450EDF972201B354006B189D /* LaunchScreen.storyboard */,
 				450EDF9A2201B354006B189D /* Info.plist */,
+				450EDFBC2201D4B4006B189D /* AutolayoutProxy.swift */,
 			);
 			path = airlines;
 			sourceTree = "<group>";
@@ -123,6 +141,41 @@
 				450EDFB02201B354006B189D /* Info.plist */,
 			);
 			path = airlinesUITests;
+			sourceTree = "<group>";
+		};
+		450EDFC02201E987006B189D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				450EDFC12201E9B3006B189D /* AirlineItemListCell.swift */,
+				454E692D22045821006A7A2E /* AirlineItemGridCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		450EDFC32201E9D9006B189D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450EDF902201B352006B189D /* HomeController.swift */,
+				450EDFC7220265D9006B189D /* DetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450EDFC42201EA0D006B189D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				450EDFC52201EA47006B189D /* Airline.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450EE003220313C7006B189D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				450EE004220313FE006B189D /* Extensions.swift */,
+				454E693322048865006A7A2E /* ViewControllerUtils.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +309,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450EDF912201B352006B189D /* ViewController.swift in Sources */,
+				450EDF912201B352006B189D /* HomeController.swift in Sources */,
+				450EDFC22201E9B3006B189D /* AirlineItemListCell.swift in Sources */,
+				450EDFBD2201D4B4006B189D /* AutolayoutProxy.swift in Sources */,
+				450EDFC62201EA47006B189D /* Airline.swift in Sources */,
+				450EDFC8220265D9006B189D /* DetailController.swift in Sources */,
+				454E692E22045821006A7A2E /* AirlineItemGridCell.swift in Sources */,
 				450EDF8F2201B352006B189D /* AppDelegate.swift in Sources */,
+				450EE005220313FE006B189D /* Extensions.swift in Sources */,
+				454E693422048865006A7A2E /* ViewControllerUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

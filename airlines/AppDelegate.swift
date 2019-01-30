@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  airlines
 //
-//  Created by 张铮琦 on 1/30/19.
+//  Created by 张铮琦 on 1/31/19.
 //  Copyright © 2019 张铮琦. All rights reserved.
 //
 
@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        let layout = UICollectionViewFlowLayout()
+        layout.itemSize = CGSize(width: UIScreen.main.bounds.width, height: 100)
+
+        window?.rootViewController = UINavigationController(rootViewController: HomeController(collectionViewLayout: layout))
+//        window?.rootViewController = UINavigationController(rootViewController: DetailController())
+        
         return true
     }
 
